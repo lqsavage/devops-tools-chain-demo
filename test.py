@@ -12,6 +12,6 @@ browser=webdriver.Remote("http://114.115.170.21:5555/wd/hub",desired_capabilitie
 
 browser.get("http://114.115.170.21:9080/")
 
-browser.get_screenshot_as_file("/website-<TEAM_ID>/devops.png")
+browser.get_screenshot_as_file("/website-1/devops.png")
 
 browser.close()
